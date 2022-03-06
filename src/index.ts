@@ -11,5 +11,8 @@ export * from "./middlewares/error-handler";
 export * from "./middlewares/require-auth";
 export * from "./middlewares/validate-request";
 
-export * from "./events/index";
-export * from "./events/base/index";
+export * from "./events/ticket-created-event";
+export * from "./events/ticket-updated-event";
+export * from "./events/base/base-publisher";
+export * from "./events/base/base-listener";
+export * from "./events/base/subjects";
